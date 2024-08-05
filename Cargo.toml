@@ -1,0 +1,15 @@
+[package]
+name = "rres_rs"
+version = "0.1.0"
+authors = ["detri <adosser@ded.zone>"]
+edition = "2021"
+rust-version = "1.80.0"
+description = "Rust implementation of the .rres file format used to load assets"
+readme = "README.md"
+license = "Zlib"
+keywords = ["files", "gamedev", "io"]
+categories = ["filesystem", "game-development", "multimedia"]
+include = ["/src"]
+
+[dependencies]
+byteorder = "1.5.0"
